@@ -30,6 +30,7 @@
     .grid-wrapper {
         height: 100vh;
         overflow-y: auto;
+        border-radius: 10px;
     }
 
     .grid {
@@ -80,7 +81,7 @@ body {
     margin: auto;
     width: min(95vw, 1400px);
     background-color: var(--bg-secondary);
-   
+    clip-path: inset(0 round 20px);
 }
 
 .grid {
